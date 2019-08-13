@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.11.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="LivestreamFailsNET">
+      <HintPath>..\..\LivestreamFailsNET\LivestreamFailsNET\bin\Debug\netcoreapp2.1\LivestreamFailsNET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
